@@ -158,25 +158,26 @@ export default function Home() {
           className={style.background}
           sx={{
             margin: '20px 110px',
+            padding: '10px',
             width: '70%',
           }}>
           <Typography
             align="left"
             variant="h4"
-            sx={{
-              padding: '5px'
-            }}
           >
             项目经历
           </Typography>
           <Typography
             align="left"
             variant="h5"
-            sx={{
-              padding: '5px'
-            }}
           >
             ChatRoom
+          </Typography>
+          <Typography
+            align="left"
+            variant="h6"
+          >
+            即时聊天网页
           </Typography>
           <Typography
             align="left"
