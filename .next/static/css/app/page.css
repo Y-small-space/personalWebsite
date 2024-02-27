@@ -1,0 +1,46 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./app/page.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.page_main__nw1Wk {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.page_content___38fW {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+}
+
+.page_image__ZQ2oC {
+  border-radius: 75px;
+}
+
+.page_name__o7Dx1 {
+  font-size: 49px;
+  margin-bottom: 50px;
+  font-family: 'Arial', sans-serif;
+}
+
+.page_content___38fW {
+  width: 900px;
+}
+
+.page_strong__nX_Zb {
+  font-family: 'Calibri', sans-serif;
+  align-self: flex-start;
+  font-size: 30px;
+  margin-top: 40px
+}
+
+.page_message__ymXyd {
+  font-family: 'Open Sans', sans-serif;
+  align-self: flex-start;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 300;
+}

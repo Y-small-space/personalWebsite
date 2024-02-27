@@ -1,0 +1,43 @@
+.main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+}
+
+.image {
+  border-radius: 75px;
+}
+
+.name {
+  font-size: 49px;
+  margin-bottom: 50px;
+  font-family: 'Arial', sans-serif;
+}
+
+.content {
+  width: 900px;
+}
+
+.strong {
+  font-family: 'Calibri', sans-serif;
+  align-self: flex-start;
+  font-size: 30px;
+  margin-top: 40px
+}
+
+.message {
+  font-family: 'Open Sans', sans-serif;
+  align-self: flex-start;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 300;
+}
