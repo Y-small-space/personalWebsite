@@ -17,6 +17,11 @@ export default function Home() {
             marginBottom: '20px'
           }} />
         <div className={sty.name}>郭靖远</div>
+        <Divider
+
+          style={{
+            width: '100%',
+          }} />
         <strong
           className={sty.strong}
           style={{
