@@ -13,16 +13,11 @@
   align-items: center;
   flex-direction: column;
   background-color: white;
-  padding: 20px;
-}
-
-.page_image__ZQ2oC {
-  border-radius: 75px;
+  padding: 10px;
 }
 
 .page_name__o7Dx1 {
-  font-size: 49px;
-  margin-bottom: 50px;
+  font-size: 32px;
   font-family: 'Arial', sans-serif;
 }
 
@@ -33,14 +28,14 @@
 .page_strong__nX_Zb {
   font-family: 'Calibri', sans-serif;
   align-self: flex-start;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 40px
 }
 
 .page_message__ymXyd {
   font-family: 'Open Sans', sans-serif;
   align-self: flex-start;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 10px;
   font-weight: 300;
   color: rgb(75, 75, 75);

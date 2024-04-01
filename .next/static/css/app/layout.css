@@ -565,3 +565,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
