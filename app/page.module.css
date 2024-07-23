@@ -7,10 +7,10 @@
 .content {
   width: 1200px;
   display: flex;
-  align-items: center;
+  align-items: self-start;
   flex-direction: column;
   background-color: white;
-  padding: 10px;
+  padding: 20px;
 }
 
 .name {
@@ -32,7 +32,7 @@
 .message {
   font-family: 'Open Sans', sans-serif;
   align-self: flex-start;
-  font-size: 16px;
+  font-size: 13px;
   margin-top: 10px;
   font-weight: 300;
   color: rgb(75, 75, 75);
