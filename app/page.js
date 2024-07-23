@@ -103,7 +103,7 @@ export default function Home() {
           <div style={{ fontSize: "13px" }}>jy.small.space@gmail.com</div>
           <div style={{ fontSize: "13px" }}>https://github.com/Y-small-space</div>
         </div>
-        <div style={{ position: "absolute", top: "0px", left: "550px" }}>
+        <div style={{ position: "absolute", top: "2rem", left: "65%" }}>
           <Image
             className={sty.image}
             src={defaultHead}
