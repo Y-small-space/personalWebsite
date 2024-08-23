@@ -5,139 +5,61 @@ import React from 'react';
 
 export default function Home() {
   return (
-    // <div className={sty.main}>
-    //   <div className={sty.content}>
-    //     <Image
-    //       className={sty.image}
-    //       src={defaultHead}
-    //       style={{
-    //         width: '88px',
-    //         // marginTop: '10px',
-    //         marginBottom: '10px'
-    //       }} />
-    //     <div className={sty.name}>郭靖远</div>
-    //     <strong
-    //       style={{
-    //         fontSize: '28px',
-    //         marginTop: '20px'
-    //       }}
-    //       className={sty.strong}
-    //     >个人简介</strong>
-    //     <div className={sty.message}>
-    //       <h2><strong>年龄：</strong>21</h2>
-    //       <h2><strong>学校：</strong>西安建筑科技大学</h2>
-    //       <h2><strong>专业：</strong>数据科学与大数据技术</h2>
-    //       <h2><strong>年级：</strong>大三</h2>
-    //     </div>
-    //     <div className={sty.message}>
-    //       <h3>
-    //         在追求前端编程技术和网页设计能力的同时，我对构建全栈应用充满热情，致力于拓展技术栈。同时，我注重团队协作与沟通，相信协同工作是实现复杂项目目标的关键。在未来，我追求不断挑战自己，将前端和后端融会贯通，成为一名全栈工程师，为用户创造更出色的互联网体验。
-    //       </h3>
-    //     </div>
-    //     <strong
-    //       className={sty.strong}
-    //       style={{
-    //         fontSize: '28px',
-    //         marginTop: '20px'
-    //       }}>联系方式</strong>
-    //     <div className={sty.message}>
-    //       <h3><strong>电话：</strong>17391669464</h3>
-    //       <h3><strong>Email：</strong>jy.small.space@gmail.com</h3>
-    //       <h3><strong>Github：</strong>https://github.com/Y-small-space</h3>
-    //     </div>
-    //     <strong
-    //       className={sty.strong}
-    //       style={{
-    //         fontSize: '28px',
-    //         marginTop: '20px'
-    //       }}>个人能力</strong>
-    //     <div className={sty.message}>
-    //       <li>熟悉Javascript、HTML、CSS基础知识以及ES6新特性。</li>
-    //       <li>熟悉React框架，具备基本的React开发能力，并能与Ant Design等UI组件库结合，快速搭建用户友好的前端界面</li>
-    //       <li>掌握React-Router和React-Redux的知识，能够实现前端路由管理和状态管理，使得前端应用具有良好的交互体验和数据管理能力。</li>
-    //       <li>熟悉TypeScript语法，能够与React结合起来进行项目开发，提高代码的可维护性和安全性。</li>
-    //       <li>具备Node.js和Express框架的开发经验，了解MongoDB数据库的基本操作，能够进行基本的后端开发工作，为前端应用提供数据支持。</li>
-    //       <li>熟悉Webpack的基本配置方法，能够进行打包优化和性能调优，提高前端项目的加载速度和运行效率。</li>
-    //       <li>了解Docker的基本操作命令，具备部署前后端应用以及MongoDB数据库的能力，能够建立网络连接并进行部署管理。</li>
-    //     </div>
-    //     <strong
-    //       className={sty.strong}
-    //       style={{
-    //         fontSize: '28px',
-    //         marginTop: '20px'
-    //       }}>项目经历</strong>
-    //     <div className={sty.message}>
-    //       <strong style={{ fontSize: '27px' }}>Chatroom</strong>
-    //       <h3 style={{ color: 'gray', fontSize: '17px' }}>一个可以即时聊天的网页</h3>
-    //       <h3 style={{ color: 'gray', fontSize: '17px' }}>独自设计、编写前后端代码、建立数据库与后端连接</h3>
-    //       <h3><strong>前端链接：</strong>https://github.com/Y-small-space/Chatroom</h3>
-    //       <h3><strong>后端链接：</strong>https://github.com/Y-small-space/Chatroom_backend</h3>
-    //       <h3><strong>技术栈：</strong></h3>
-    //       <li>前端：Typescript react react-redux react-router Ant Design</li>
-    //       <li>后端：nodejs express websocket mongodb</li>
-    //       <h3><strong>内容：</strong></h3>
-    //       <li>使用React、Ant Design构建页面，提供美观、响应式的用户界面，增强用户体验。</li>
-    //       <li>利用React Router实现前端路由，使用React Redux管理前端应用状态。</li>
-    //       <li>用户注册和登录功能，使用 JWT 进行身份验证。</li>
-    //       <li>基于 WebSocket 实现用户间的实时聊天功能。</li>
-    //       <li>利用 Express 框架搭建了基本的后台服务，实现了用户认证和聊天消息的存储与获取。</li>
-    //       <li>使用mongodb存储用户以及聊天信息，实现数据的可持久化存储。</li>
-    //       <li>使用 Docker 部署前端、后端以及 MongoDB 数据库，并建立了网络连接。</li>
-    //       <h3><strong>优化手段：</strong></h3>
-    //       <li>代码分割： 通过代码分割技术，Chatroom 将页面划分为多个模块，在需要时才加载相关代码，减少了首屏加载时间和资源请求次数。</li>
-    //       <li>协商缓存： 后端使用协商缓存机制，与客户端协商资源的缓存策略，减少了不必要的资源请求，提高了网站性能和用户体验。</li>
-    //       <li>路由懒加载： Chatroom 使用 React-Router 实现前端路由，并采用了路由懒加载技术，将页面按需加载，减少了初始加载时间和资源占用。</li>
-    //       <li>消息加载： 使用了下拉加载，首次加载24小时之内的消息，之后下拉一次显示10条消息。</li>
-    //       <h3><strong>总结：</strong></h3>
-    //       <h3>
-    //         Chatroom这个项目，是我在了解React之后建立，并在不断完善知识的过程中将所学知识成功应用于实际项目实践。这期间，我深入学习了Node.js和Express框架，同时了解了关于数据库的基础知识。这个项目不仅仅是对我的前端开发技能的锻炼，还让我了解了后端开发的知识。通过处理实际项目中遇到的挑战，我积累了解决问题的经验，尤其是在构建聊天应用时，学到了有关实时通信的重要知识。Chatroom项目巩固了我对React及其相关技术栈的应用，为未来的项目打下了坚实的基础。这个经验不仅在技术上丰富了我的知识，同时也培养了我独立解决问题的能力。我期待着将这些经验应用到未来的项目中，为用户创造更出色的互联网体验。
-    //       </h3>
-    //     </div>
-    //   </div>
-    // </div >
     <div className={sty.main}>
       <div className={sty.content}>
-        <div>
+        <div style={{ paddingTop: "0px" }}>
           <div style={{ fontSize: "20px" }}><b>郭靖远</b></div>
           <div style={{ fontSize: "13px" }}>13709251815</div>
           <div style={{ fontSize: "13px" }}>jy.small.space@gmail.com</div>
           <div style={{ fontSize: "13px" }}>https://github.com/Y-small-space</div>
         </div>
-        <div style={{ position: "absolute", top: "2rem", left: "65%" }}>
+        {/* <div style={{ position: "absolute", left: "75%", }}>
           <Image
             className={sty.image}
             src={defaultHead}
             alt='123'
             style={{
-              width: '110px',
-              marginBottom: '10px'
+              width: '120px',
             }} />
-        </div>
+        </div> */}
         <div style={{ marginTop: "10px", border: "1px solid black", width: "100%", fontSize: "20px", borderTop: "0", borderLeft: "0", borderRight: "0" }}>
           <b>个人能力</b>
         </div>
         <div className={sty.message}>
-          <li>熟悉Javascript、HTML、CSS基础知识以及ES6新特性。</li>
-          <li>熟悉React框架，具备基本的React开发能力，并能与Ant Design等UI组件库结合，快速搭建用户友好的前端界面</li>
-          <li>掌握React-Router和React-Redux的知识，能够实现前端路由管理和状态管理，使得前端应用具有良好的交互体验和数据管理能力。</li>
-          <li>熟悉TypeScript语法，能够与React结合起来进行项目开发，提高代码的可维护性和安全性。</li>
-          <li>具备Node.js和Express框架的开发经验，了解MongoDB数据库的基本操作，能够进行基本的后端开发工作，为前端应用提供数据支持。</li>
-          <li>熟悉Webpack的基本配置方法，能够进行打包优化和性能调优，提高前端项目的加载速度和运行效率。</li>
-          <li>熟悉Canvas。</li>
-          <li>了解Docker的基本操作命令，具备部署前后端应用以及MongoDB数据库的能力，能够建立网络连接并进行部署管理。</li>
-          <li>了解Rust</li>
-          <li>了解React Native</li>
+          <li>
+            熟悉 JavaScript、HTML、CSS 基础知识，并掌握 ES6+ 新特性，能够编写现代、高效的前端代码。
+          </li>
+          <li>
+            熟悉 React 框架，具备丰富的开发经验。能够结合 Ant Design 等 UI 组件库，快速搭建用户友好的前端界面，并熟练掌握 React-Router 和 React-Redux，确保应用具有良好的交互体验、复杂的前端路由管理和全局状态管理。
+          </li>
+          <li>
+            具备 Next.js 框架的开发经验，能够利用其服务端渲染、静态站点生成等特性，提升应用的性能和 SEO 优化。
+          </li>
+          <li>
+            熟悉 TypeScript 语法，能够与 React 结合进行项目开发，显著提高代码的可维护性、类型安全性和开发效率。
+          </li>
+          <li>
+            具备 Node.js 和 Express 框架的开发经验，能够进行基础的后端开发工作，并熟悉 MongoDB 数据库的操作，为前端应用提供可靠的数据支持。
+          </li>
+          <li>
+            熟悉 Webpack 的配置和优化，能够通过打包优化和性能调优。
+          </li>
+          <li>
+            了解 Docker 的基本操作命令，了解前后端部署。
+          </li>
         </div>
         <div style={{ marginTop: "10px", border: "1px solid black", width: "100%", fontSize: "20px", borderTop: "0", borderLeft: "0", borderRight: "0" }}>
           <b>实习经历</b>
         </div>
         <div className={sty.message}>
-          <strong>腾讯云（西安）</strong><span>6月12-至今</span>
+          <strong>腾讯云（西安）</strong><span style={{ marginLeft: "10px" }}>2024年6月12日 - 至今</span>
           <div>
             <strong>实习岗位：</strong><span>前端开发</span>
-            <div >
+            <div>
               <strong>实习内容：</strong>
-              <span>腾讯TCS专有云web网页的开发，技术栈为TS+React。在实习的过程中，参与了一个版本的更新迭代，在迭代中我主要是负责TCS专有云web网页中个人中心、租户管理、DCOS等几个模块的需求开发，以及bug、和安全漏洞的修复。在实习中，了解了腾讯的项目开发流水线。</span>
+              <span>
+                在腾讯云 TCS 专有云项目中担任前端开发实习生，主要使用 TypeScript 和 React 作为开发技术栈。在此期间，我参与了一个版本的更新迭代，负责开发和优化多个关键模块。我的职责包括需求分析、功能开发，以及修复上个迭代的 Bug 和安全漏洞。此外，我协助组长制定了组内自测和交叉测试的流程，提升了团队开发效率和代码质量。
+              </span>
             </div>
           </div>
         </div>
@@ -149,10 +71,25 @@ export default function Home() {
             <b>Chatroom_webpage</b>
             <div style={{ marginLeft: "20px" }}>
               <div><strong>前端链接：</strong>https://github.com/Y-small-space/Chatroom</div>
-              <div><strong>技术栈：</strong>Typescript react react-redux react-router Ant Design</div>
-              <div><strong>内容：</strong>使用React、Ant Design构建页面，提供美观、响应式的用户界面，增强用户体验。利用React Router实现前端路由，使用React Redux管理前端应用状态。用户注册和登录功能，使用 JWT 进行身份验证。基于 WebSocket 实现用户间的实时聊天功能。</div>
-              <div><strong>优化：</strong>通过代码分割技术，Chatroom 将页面划分为多个模块，在需要时才加载相关代码，减少了首屏加载时间和资源请求次数。使用协商缓存机制，与客户端协商资源的缓存策略，减少了不必要的资源请求，提高了网站性能和用户体验。路由懒加载： Chatroom 使用 React-Router 实现前端路由，并采用了路由懒加载技术，将页面按需加载，减少了初始加载时间和资源占用。</div>
-
+              <div><strong>后端链接：</strong>https://github.com/Y-small-space/Chatroom_backend</div>
+              <div><strong>技术栈：</strong>Typescript react react-redux react-router Ant Design Nodejs Express MongoDB</div>
+              <div><strong>内容：</strong>
+                该项目采用 React 作为主要框架，结合 Ant Design 构建了简洁、直观的用户界面。核心功能包括用户注册、登录验证、好友管理（添加/删除）、实时显示好友在线状态，以及支持单人和多人聊天。用户可以在聊天中传输文本和文件，提供了丰富的互动体验。
+              </div>
+              <div><strong>优化：</strong>
+                通过代码分割技术，Chatroom 将页面划分为多个模块，实现按需加载，显著减少了首屏加载时间和资源请求次数。引入协商缓存机制，优化资源请求策略，减少不必要的请求，提高了网站的性能与用户体验。此外，利用 React-Router 实现路由懒加载，进一步降低初始加载时间与资源占用。文件传输模块采用数据切片技术，提升了大文件传输的效率和可靠性。
+              </div>
+            </div>
+          </li>
+        </div>
+        <div className={sty.message}>
+          <li>
+            <b>FlawerShop</b>
+            <div style={{ marginLeft: "20px" }}>
+              <div><strong>技术栈：</strong>Next.js, Ant Design</div>
+              <div><strong>内容：</strong>
+                FlawerShop 是一个为鲜花出口商打造的电商平台。在项目中，我主要负责数据上传、表单创建、表单修改等核心模块的封装，确保了数据的准确性和用户操作的流畅性。此外，我还优化了数据输入流程，减少了用户操作步骤，并且通过表单验证机制提升了表单提交的可靠性。
+              </div>
             </div>
           </li>
         </div>
@@ -160,8 +97,8 @@ export default function Home() {
           <b>教育经历</b>
         </div>
         <div className={sty.message}>
-          <li style={{ margin: "10px 0" }}>本科：</li>
-          <span style={{ margin: "0 20px" }}>西安建筑科技大学</span> <span style={{ margin: "0 50px", marginLeft: "80px" }}>数据科学与大数据专业</span> <span style={{ margin: "0 50px" }}>2019-09-01 - 2025-07-01 </span>
+          <li>本科：</li>
+          <span style={{ margin: "0 20px" }}>西安建筑科技大学</span> <span style={{ margin: "0 50px", marginLeft: "80px" }}>数据科学与大数据专业</span> <span style={{ margin: "0 50px" }}>2021-09-01 - 2025-07-01 </span>
         </div>
       </div >
     </div >
