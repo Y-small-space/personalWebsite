@@ -13,7 +13,7 @@ export default function Home() {
           <div style={{ fontSize: "13px" }}>jy.small.space@gmail.com</div>
           <div style={{ fontSize: "13px" }}>https://github.com/Y-small-space</div>
         </div>
-        {/* <div style={{ position: "absolute", left: "75%", }}>
+        <div style={{ position: "absolute", left: "75%", }}>
           <Image
             className={sty.image}
             src={defaultHead}
@@ -21,7 +21,7 @@ export default function Home() {
             style={{
               width: '120px',
             }} />
-        </div> */}
+        </div>
         <div style={{ marginTop: "10px", border: "1px solid black", width: "100%", fontSize: "20px", borderTop: "0", borderLeft: "0", borderRight: "0" }}>
           <b>个人能力</b>
         </div>
@@ -52,7 +52,7 @@ export default function Home() {
           <b>实习经历</b>
         </div>
         <div className={sty.message}>
-          <strong>腾讯云（西安）</strong><span style={{ marginLeft: "10px" }}>2024年6月12日 - 至今</span>
+          <strong>腾讯云（西安）</strong><span style={{ marginLeft: "10px" }}>2024年5月 - 至今</span>
           <div>
             <strong>实习岗位：</strong><span>前端开发</span>
             <div>
@@ -68,7 +68,7 @@ export default function Home() {
         </div>
         <div className={sty.message}>
           <li>
-            <b>Chatroom_webpage</b>
+            <b>Chatroom_webpage(全栈开发)</b>
             <div style={{ marginLeft: "20px" }}>
               <div><strong>前端链接：</strong>https://github.com/Y-small-space/Chatroom</div>
               <div><strong>后端链接：</strong>https://github.com/Y-small-space/Chatroom_backend</div>
@@ -84,7 +84,7 @@ export default function Home() {
         </div>
         <div className={sty.message}>
           <li>
-            <b>FlawerShop</b>
+            <b>FlawerShop(前端开发)</b>
             <div style={{ marginLeft: "20px" }}>
               <div><strong>技术栈：</strong>Next.js, Ant Design</div>
               <div><strong>内容：</strong>
